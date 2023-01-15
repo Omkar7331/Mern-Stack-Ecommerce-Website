@@ -8,10 +8,10 @@ Setup MongoDB
 
 - Local MongoDB
   - Install it from [here](https://www.mongodb.com/try/download/community)
-  - In .env file update MONGODB_URI=mongodb://localhost/amazona
+  - In .env file update MONGODB_URI=mongodb://0.0.0.0:27017/ecommerce_db
 - OR Atlas Cloud MongoDB
   - Create database at [https://cloud.mongodb.com](https://cloud.mongodb.com)
-  - In .env file update MONGODB_URI=mongodb+srv://your-db-connection
+  - In .env file update MONGODB_URI=mongodb+srv://db-connection
 
 Run Backend
 
